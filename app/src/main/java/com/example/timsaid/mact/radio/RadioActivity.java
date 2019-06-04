@@ -162,7 +162,7 @@ public class RadioActivity extends Activity implements OnClickListener{
 
     public void uploadMultiFile(String msg) {
         /*final String url = "http://172.17.76.118:8080/jeecg-boot/sys/common/upload";*/
-        final String url = "http://192.168.1.106:8080/mact_web/a/mact/mobile/upload?id="+msg;
+        final String url = "http:/192.168.1.102:8080/mact_web/a/mact/mobile/upload?id="+msg;
         File file = new File("/"+voicePath);
         RequestBody fileBody = RequestBody.create(MediaType.parse("application/octet-stream"), file);
         RequestBody requestBody = new MultipartBody.Builder()
