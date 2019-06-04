@@ -30,7 +30,7 @@ public class Radiojs {
         activity.runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                Toast.makeText(activity,"开始录音",Toast.LENGTH_SHORT).show();
+                Toast.makeText(activity,"录音已开始！",Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -46,7 +46,7 @@ public class Radiojs {
         activity.runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                Toast.makeText(activity,"结束录音",Toast.LENGTH_SHORT).show();
+                Toast.makeText(activity,"录音已结束！",Toast.LENGTH_SHORT).show();
             }
         });
 

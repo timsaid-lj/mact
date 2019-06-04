@@ -13,7 +13,7 @@ import android.webkit.WebViewClient;
 
 public class MainActivity extends AppCompatActivity {
     private WebView webView;
-    private String url = "http://192.168.1.106:8080/mact_web/a/mact/mobile/index";
+    private String url = "http://192.168.1.102:8080/mact_web/a/mact/mobile/index";
     private String Tag = "MQL";
 
     @Override
