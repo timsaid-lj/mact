@@ -12,9 +12,9 @@ import android.webkit.WebViewClient;
 
 
 public class MainActivity extends AppCompatActivity {
-    public static String  urlIp="http://192.168.1.103:8080/mact_web/a";
+    public static String  urlIp="http://172.18.145.221:8080/mact_web/a";
     private WebView webView;
-    private String url = urlIp+"/mact/mobile/index";
+    private String url = urlIp+"/mact/mobile/modelCheck";
     private String Tag = "MQL";
 
     @Override
