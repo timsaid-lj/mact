@@ -29,6 +29,7 @@
         android:name=".utils.MyApplication"
         android:theme="@style/AppTheme">
 
+
         <activity
             android:name=".MainActivity"
             android:windowSoftInputMode="adjustPan" >

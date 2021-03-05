@@ -12,9 +12,10 @@ import android.webkit.WebViewClient;
 
 
 public class MainActivity extends AppCompatActivity {
-    public static String  urlIp="http://172.18.145.221:8080/mact_web/a";
+    //public static String  urlIp="http://210.26.110.229/a";
+    public static String  urlIp="http://219.246.202.250/mact_web/a";
     private WebView webView;
-    private String url = urlIp+"/mact/mobile/modelCheck";
+    private String url = urlIp+"/mact/mobile/radioJsp";
     private String Tag = "MQL";
 
     @Override
@@ -35,6 +36,11 @@ public class MainActivity extends AppCompatActivity {
 
         //支持弹出alert提示
         webView.setWebChromeClient(new WebChromeClient());
+
+        String ua = webView.getSettings().getUserAgentString();
+        webView.getSettings().setUserAgentString("User-Agent:Android");
+
+
 
 
         //自适应屏幕
